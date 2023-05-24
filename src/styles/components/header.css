@@ -10,6 +10,9 @@
 .header__link {
   @apply text-sm hover:text-yellow-300 transition-colors duration-300;
 }
+.header__link-active {
+  @apply font-bold;
+}
 .header__menu-logo > img {
   @apply h-9;
 }
