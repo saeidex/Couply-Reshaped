@@ -6,23 +6,15 @@
   * {
     padding: 0;
   }
-  html {
-    @apply scroll-smooth;
-  }
-  body {
-    @apply bg-blue-50/95;
-  }
 
   /* Utility Styles */
 
   .btn {
-    @apply cursor-pointer rounded-md border-2 border-b-4 border-blue-800 bg-yellow-300 px-4 py-2 text-sm font-bold text-blue-800 drop-shadow-md transition-all duration-300;
+    @apply cursor-pointer rounded-md border-2 border-b-4 border-blue-800 bg-yellow-300 px-4 py-2 text-base font-bold tracking-wider text-blue-800 drop-shadow-md transition-all duration-300 hover:bg-white;
   }
-  .btn:hover {
-    @apply bg-white text-blue-800;
-  }
+
   .section {
-    @apply sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-2xl;
-    @apply ml-auto mr-auto w-full px-8 text-white;
+    @apply sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+    @apply ml-auto mr-auto px-8;
   }
 }
