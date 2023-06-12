@@ -7,23 +7,25 @@
     <title>DEV Server</title>
   </head>
   <body>
-    <header class="header container">
-      <div class="header__logo">
-        <img src="/logo.svg" alt="Couply" />
-      </div>
-      <nav class="header__menu">
-        <ul>
-          <li class="header__menu--link link-active"><a href="#">Home</a></li>
-          <li class="header__menu--link"><a href="#">Cupons</a></li>
-          <li class="header__menu--link"><a href="#">FAQ</a></li>
-          <li class="header__menu--link"><a href="#">Contact</a></li>
+    <header
+      class="section sticky top-0 z-40 ml-auto mr-auto mt-0 flex h-20 items-center justify-between self-center border-b-4 border-blue-600 bg-blue-500/10 backdrop-blur-lg transition-colors duration-300"
+    >
+      <img class="h-9" src="/logo.svg" alt="Couply" />
+      <nav>
+        <ul
+          class="flex items-center gap-5 text-sm font-medium uppercase text-white transition-colors duration-300 hover:text-yellow-300"
+        >
+          <li class="font-bold"><a href="#">Home</a></li>
+          <li><a href="#">Cupons</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
       <div class="header__btn">
         <a class="btn" href="#">Start Saving</a>
       </div>
     </header>
-    <section class="hero container">
+    <section class="section h-[2000px] bg-red-500">
       <article class="hero-left">
         <div class="hero-left__heading">
           <h1>
