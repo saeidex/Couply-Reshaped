@@ -16,7 +16,7 @@ body {
 /* Utility Styles */
 
 .btn {
-  @apply text-sm bg-yellow-300 text-blue-800 px-4 py-2 rounded-md font-bold drop-shadow-md border-2 border-blue-800 transition-all duration-300 border-b-4 cursor-pointer;
+  @apply cursor-pointer rounded-md border-2 border-b-4 border-blue-800 bg-yellow-300 px-4 py-2 text-sm font-bold text-blue-800 drop-shadow-md transition-all duration-300;
 }
 .btn:hover {
   @apply bg-white text-blue-800;
