@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tw-output": "npx tailwindcss -i ./src/styles/tw_style.css -o ./src/styles/tw_output.css"
+    "tw-output": "npx tailwindcss -i src/tailwind.css -o public/build/tw-output.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
