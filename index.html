@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEV Server</title>
   </head>
-  <body class="w-screen bg-yellow-500/10">
+  <body class="w-full bg-yellow-500/10">
     <header
       class="sticky top-0 z-40 border-b border-blue-600 bg-slate-500/10 backdrop-blur-lg transition-colors duration-300"
     >
@@ -16,7 +16,7 @@
         <!-- <img class="h-10" src="/logo.svg" alt="Couply" /> -->
         <div>
           <svg
-            class="h-10"
+            class="h-10 w-full"
             width="53"
             height="68"
             viewBox="0 0 53 68"
@@ -50,7 +50,10 @@
         </div>
       </div>
     </header>
-    <section class="container h-[2000px] bg-blue-500/10 text-yellow-500">
+    <!-- hero section begins -->
+    <section
+      class="container mx-auto h-[2000px] bg-blue-500/10 px-8 text-yellow-500"
+    >
       <article class="hero-left">
         <div class="hero-left__heading">
           <h1>
@@ -101,6 +104,7 @@
         </div>
       </article>
     </section>
+    <!-- hero section ends -->
 
     <script type="module" src="./src/main.js"></script>
   </body>
