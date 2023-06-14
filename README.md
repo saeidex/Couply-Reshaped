@@ -1,3 +1,3 @@
-# Couply
+# Couply-Reshaped with TAILWINDCSS
 
-## with tailwindcss
+`project` `index-03`
