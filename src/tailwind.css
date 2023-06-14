@@ -13,10 +13,13 @@
   .btn-primary {
     @apply cursor-pointer rounded-md border-2 border-b-4 border-blue-800 bg-yellow-300 px-4 py-2 text-base font-bold tracking-tighter text-blue-800 drop-shadow-md transition-all duration-300 hover:bg-white;
   }
-  .btn-alternative {
+  .btn-footer {
     @apply flex items-center rounded-md bg-[#24292F] px-5 py-2.5 text-center text-base font-bold text-white hover:bg-[#24292F]/90 focus:outline-none focus:ring-4 focus:ring-[#24292F]/50;
   }
   .avater-stacked {
-    @apply rounded-full h-14 w-14 border ring ring-offset-1 ring-blue-800/30;
+    @apply h-14 w-14 rounded-full border ring ring-blue-800/30 ring-offset-1;
+  }
+  .counter {
+    @apply flex h-10 w-10 items-center justify-center bg-yellow-400 font-semibold ring ring-blue-800/30 ring-offset-1 rounded-full;
   }
 }
