@@ -66,16 +66,23 @@
     </header>
     <!-- hero section begins -->
     <main class="h-[2000px] bg-blue-500/10 text-yellow-500">
-      <section class="container mx-auto h-full px-8 xl:max-w-screen-xl">
-        <article class="hero-left">
-          <div class="hero-left__heading">
-            <h1>
-              Shoping with <span>Coupons</span>,<br />
-              applied automatically.
-              <div class="sparks"></div>
+      <section class="container mx-auto flex h-full px-8 xl:max-w-screen-xl">
+        <article class="flex-shrink-0 basis-3/5">
+          <div>
+            <h1 class="mt-24 text-6xl font-semibold tracking-tighter text-blue-800">
+              Shoping with
+              <span class="relative font-black text-yellow-400"
+                >Coupons<img
+                  class="absolute -right-10 -top-12"
+                  src="public/sparks.svg"
+                  alt="sparks"
+                />
+              </span>
+              <br />
+              <span class="text-blue-800/30">applied automatically</span>
             </h1>
           </div>
-          <div class="hero-left__testmonial">
+          <div class="">
             <div class="">
               <span id="used-by">Used by over 5,00,000</span>
               <div class="card-avater">
@@ -95,7 +102,7 @@
             </div>
           </div>
         </article>
-        <article class="hero-right">
+        <article class="flex-shrink-0 basis-2/5">
           <div class="hero-right__card">
             <span class="number">01</span>
             <h4>
