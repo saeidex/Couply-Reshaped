@@ -16,4 +16,7 @@
   .btn-alternative {
     @apply flex items-center rounded-md bg-[#24292F] px-5 py-2.5 text-center text-base font-bold text-white hover:bg-[#24292F]/90 focus:outline-none focus:ring-4 focus:ring-[#24292F]/50;
   }
+  .avater-stacked {
+    @apply rounded-full h-14 w-14 border ring ring-offset-1 ring-blue-800/30;
+  }
 }

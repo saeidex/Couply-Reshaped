@@ -11,7 +11,7 @@
       class="sticky top-0 z-40 border-b border-blue-600 bg-slate-500/10 backdrop-blur-lg transition-colors duration-300"
     >
       <div
-        class="container mx-auto flex h-20 items-center justify-between self-center px-8 xl:max-w-screen-xl"
+        class="container mx-auto flex h-20 items-center justify-between self-center px-8 xl:max-w-7xl"
       >
         <!-- <img class="h-10" src="/logo.svg" alt="Couply" /> -->
         <div>
@@ -65,16 +65,18 @@
       </div>
     </header>
     <!-- hero section begins -->
-    <main class="h-[2000px] bg-blue-500/10 text-yellow-500">
-      <section class="container mx-auto flex h-full px-8 xl:max-w-screen-xl">
-        <article class="flex-shrink-0 basis-3/5">
+    <main class="h-[2000px] bg-blue-500/10 text-blue-800">
+      <section class="container border-b border-blue-600 mx-auto flex px-8 xl:max-w-7xl pb-24">
+        <article class="flex-shrink-0 basis-3/5 border-r border-r-blue-600 border-dotted">
           <div>
-            <h1 class="mt-24 text-6xl font-semibold tracking-tighter text-blue-800">
+            <h1
+              class="mt-24 text-6xl font-semibold tracking-tighter text-blue-800"
+            >
               Shoping with
               <span class="relative font-black text-yellow-400"
                 >Coupons<img
                   class="absolute -right-10 -top-12"
-                  src="public/sparks.svg"
+                  src="sparks.svg"
                   alt="sparks"
                 />
               </span>
@@ -82,22 +84,41 @@
               <span class="text-blue-800/30">applied automatically</span>
             </h1>
           </div>
-          <div class="">
-            <div class="">
-              <span id="used-by">Used by over 5,00,000</span>
-              <div class="card-avater">
-                <img src="#" alt="#" />
-                <img src="#" alt="#" />
-                <img src="#" alt="#" />
-                <img src="#" alt="#" />
-                <img src="#" alt="#" />
+          <div class="flex items-center gap-14 mt-24">
+            <div class="flex flex-col gap-3">
+              <span class="text-base font-semibold tracking-widest"
+                >Used by over 5,00,000</span
+              >
+              <div class="flex -space-x-4 -ml-1 -mb-1">
+                <img class="avater-stacked" src="avater-1.jpg" alt="avater" />
+                <img class="avater-stacked" src="avater-2.jpg" alt="avater" />
+                <img class="avater-stacked" src="avater-3.jpg" alt="avater" />
+                <img class="avater-stacked" src="avater-4.jpg" alt="avater" />
+                <img class="avater-stacked" src="avater-5.jpg" alt="avater" />
+                <a href="#">
+                  <span
+                    class="avater-stacked flex items-center justify-center bg-yellow-400 text-base font-semibold"
+                    >+99</span
+                  >
+                </a>
               </div>
             </div>
-            <div class="">
-              <img class="" src="#" alt="#" />
+            <div
+              class="mt-6 flex w-fit items-center gap-3 rounded-full bg-yellow-400/20 py-1 pl-1 pr-3 ring ring-offset-2 ring-blue-800/30"
+            >
+              <img
+                class="w-16 rounded-full ring filter saturate-200 brightness-90"
+                src="avater-default.png"
+                alt="#"
+              />
               <div class="">
-                <h3>Wow, I saved $480</h3>
-                <span>Danis Rechie</span>
+                <h3 class="text-xl font-semibold leading-6">
+                  Wow, I saved $480!
+                </h3>
+                <span
+                  class="text-sm uppercase leading-6 tracking-widest"
+                  >Danis Rechie</span
+                >
               </div>
             </div>
           </div>
@@ -127,7 +148,7 @@
     </main>
     <!-- hero section ends -->
     <footer class="flex h-40 items-center justify-center bg-yellow-300/10">
-      <div class="container px-8 xl:max-w-screen-xl">
+      <div class="container px-8 xl:max-w-7xl">
         <a
           class="btn-alternative flex items-center justify-center gap-2 text-xl leading-6"
           target="_blank"
