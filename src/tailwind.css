@@ -10,7 +10,10 @@
 
   /* Utility Styles */
 
-  .btn {
+  .btn-primary {
     @apply cursor-pointer rounded-md border-2 border-b-4 border-blue-800 bg-yellow-300 px-4 py-2 text-base font-bold tracking-tighter text-blue-800 drop-shadow-md transition-all duration-300 hover:bg-white;
+  }
+  .btn-alternative {
+    @apply flex items-center rounded-md bg-[#24292F] px-5 py-2.5 text-center text-base font-bold text-white hover:bg-[#24292F]/90 focus:outline-none focus:ring-4 focus:ring-[#24292F]/50;
   }
 }
