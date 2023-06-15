@@ -23,6 +23,6 @@
     @apply flex h-10 w-10 items-center justify-center rounded-full bg-yellow-400 font-semibold ring ring-blue-800/30 ring-offset-1;
   }
   .brand-card {
-    @apply flex h-32 w-72 items-center justify-center rounded-lg border border-dashed border-blue-600 bg-[#e8ebe7] px-10;
+    @apply flex h-32 w-64 items-center justify-center rounded-lg border border-dashed border-blue-600 bg-[#e8ebe7] px-10;
   }
 }
